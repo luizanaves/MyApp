@@ -48,4 +48,13 @@ extension UIButton {
         titleLabel?.tintColor = Colors.white
         titleLabel?.font = UIFont(name: Fonts.phosphane , size: 30)
     }
+    
+    func guestButton() {
+        backgroundColor = Colors.white
+        titleLabel?.tintColor = Colors.guessAgeDarkBlue
+        setTitle(Strings.guest, for: .normal)
+        titleLabel?.font = UIFont(name: "Avenir Next Bold" , size: 15)
+        frame = CGRect(x: 91, y: 500, width: 230, height: 40)
+        
+    }
 }

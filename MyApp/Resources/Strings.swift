@@ -29,5 +29,6 @@ struct Strings {
     static let descubra = "Descubra"
     static let hackear = "Hackear"
     static let fechar = "Fechar"
+    static let guest = "Continue como convidado"
     
 }

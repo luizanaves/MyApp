@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>237116367249-laf12p84ae6qiltpj6b57moo3nhjubqs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.237116367249-laf12p84ae6qiltpj6b57moo3nhjubqs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_bV9DMbyVmhsEJrCdvXyuKL6Hl9fu1LM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>237116367249</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.iteris.MyApp</string>
+	<key>PROJECT_ID</key>
+	<string>myapp-iteris</string>
+	<key>STORAGE_BUCKET</key>
+	<string>myapp-iteris.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:237116367249:ios:7ed00ceca832e71a89fa30</string>
+</dict>
+</plist>
