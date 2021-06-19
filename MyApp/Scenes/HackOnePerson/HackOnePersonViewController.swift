@@ -18,13 +18,10 @@ class HackOnePersonViewController: UIViewController {
         view.backgroundColor = Colors.hackBlack
         hackerImage.image = Images.hacker
         hackearButton.hackButton()
-        hackearButton.contentHorizontalAlignment = .center
         hackearButton.setTitle(Strings.hackear, for: .normal)
-        hackFirstLabel.numberOfLines = 1
-        hackFirstLabel.textAlignment = .center
-        hackFirstLabel.textColor = Colors.hackGreen
-        hackFirstLabel.text = Strings.firstTextHackOnePerson
-        hackFirstLabel.font = UIFont(name: "Courier New", size: 25)
+        hackFirstLabel.hackTextLabelFirst()
         
     }
 }
+
+

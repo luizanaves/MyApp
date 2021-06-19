@@ -17,20 +17,11 @@ class HackOnePersonViewCell: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = Colors.hackBlack
-        hackSecondLabel.numberOfLines = 1
-        hackSecondLabel.textAlignment = .center
-        hackSecondLabel.textColor = Colors.hackGreen
-        hackSecondLabel.text = Strings.secondTextHackOnePerson
-        hackSecondLabel.font = UIFont(name: "Courier New", size: 25)
-        resultLabelHack.numberOfLines = 10
-        resultLabelHack.textAlignment = .left
-        resultLabelHack.textColor = Colors.hackGreen
-        resultLabelHack.font = UIFont(name: "Courier New", size: 17)
+        hackSecondLabel.hackTextLabelSecond()
+        resultLabelHack.hackTextLabelResult()
         fecharButton.hackButton()
         fecharButton.contentHorizontalAlignment = .center
         fecharButton.setTitle(Strings.fechar, for: .normal)
-        
-        
         getHack() { json in
             DispatchQueue.main.async {
                 self.hackImage.downloaded(from: json.results[0].picture.large)

@@ -17,7 +17,6 @@ func getHack(completion: @escaping (HackOnePerson) -> ()) {
                 do {
                     let json: HackOnePerson = try JSONDecoder().decode(HackOnePerson.self, from: data)
                     completion(json)
-                 
                 }
                 catch let error {
                     print(error.localizedDescription)

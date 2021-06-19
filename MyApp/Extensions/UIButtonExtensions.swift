@@ -24,19 +24,19 @@ extension UIButton {
         layer.cornerRadius = 2
         layer.shadowOpacity = 0.25
         layer.shadowRadius = 10
-        layer.shadowOffset = CGSize(width: 0, height: 0)
+        layer.shadowOffset = CGSize(width: 0, height: 10)
         titleLabel?.tintColor = Colors.white
         titleLabel?.font = UIFont(name: Fonts.fontHerculanum, size: 25)
     }
     
     func hackButton(){
         backgroundColor = Colors.hackGreen
-        layer.cornerRadius = 0
         layer.shadowOpacity = 0.25
         layer.shadowRadius = 5
         layer.shadowOffset = CGSize(width: 0, height: 10)
         titleLabel?.tintColor = Colors.hackBlack
         titleLabel?.font = UIFont(name: "Courier New" , size: 30)
+        contentHorizontalAlignment = .center
     }
     
     func showDogButton(){

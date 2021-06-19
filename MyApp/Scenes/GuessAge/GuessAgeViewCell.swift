@@ -19,14 +19,8 @@ class GuessAgeViewCell: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = Colors.guessAgeDarkBlue
         prophetImage.image = Images.vidente
-        ageLabel.numberOfLines = 1
-        ageLabel.text = Strings.secondTextGuessAge
-        ageLabel.textColor = Colors.guessAgeLightBlue
-        ageLabel.font = UIFont(name: Fonts.fontHerculanum, size: 30)
-        showAgeLabel.numberOfLines = 1
-        showAgeLabel.textAlignment = .center
-        showAgeLabel.textColor = Colors.guessAgeLightBlue
-        showAgeLabel.font = UIFont(name: Fonts.fontHerculanum, size: 50)
+        ageLabel.guessAgeTextLabelSecond()
+        showAgeLabel.guessAgeTextLabelResult()
         rightButton.guessAgeButtonsPopUP()
         wrongButton.guessAgeButtonsPopUP()
         getAge(){ json in

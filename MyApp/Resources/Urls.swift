@@ -9,7 +9,6 @@
 import Foundation
 
 struct Urls {
-    
     static let showDogUrl = "https://dog.ceo/api/breeds/image/random"
     static let guessAgeUrl = "https://api.agify.io/?name=\(getNameToResponse)"
     static let hackUrl = "https://randomuser.me/api"

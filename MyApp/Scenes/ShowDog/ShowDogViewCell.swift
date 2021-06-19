@@ -16,11 +16,7 @@ class ShowDogViewCell: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = Colors.showDogOrange
-        showDogSecondLabel.numberOfLines = 5
-        showDogSecondLabel.textAlignment = .center
-        showDogSecondLabel.textColor = Colors.showDogPink
-        showDogSecondLabel.text = Strings.secondTextShowDog
-        showDogSecondLabel.font = UIFont(name: Fonts.phosphane, size: 30)
+        showDogSecondLabel.showDogTextLabelSecond()
         adoreiButton.showDogButton()
         adoreiButton.setTitle(Strings.adorei, for: .normal)
         getShowDog() { (json) in

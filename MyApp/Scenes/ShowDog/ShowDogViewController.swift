@@ -17,11 +17,7 @@ class ShowDogViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = Colors.showDogOrange
         imageDogs.image = Images.showDog
-        showDogFirstLabel.numberOfLines = 3
-        showDogFirstLabel.textAlignment = .center
-        showDogFirstLabel.text = Strings.firstTextShowDog
-        showDogFirstLabel.textColor = Colors.showDogPink
-        showDogFirstLabel.font = UIFont(name: Fonts.phosphane, size: 30)
+        showDogFirstLabel.showDogTextLabelFirst()
         showDogButton.setTitle(Strings.descubra, for: .normal)
         showDogButton.showDogButton()
     }

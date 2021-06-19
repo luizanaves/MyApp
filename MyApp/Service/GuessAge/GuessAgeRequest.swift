@@ -17,7 +17,6 @@ func getAge(completion: @escaping (GuessAge) -> ()) {
                 do {
                     let json: GuessAge = try JSONDecoder().decode(GuessAge.self, from: data)
                     completion(json)
-                    
                 }
                 catch let error {
                     print(error.localizedDescription)

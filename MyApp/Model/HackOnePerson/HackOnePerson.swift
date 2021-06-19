@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct HackOnePerson: Codable {
     let results: [ResultsHack]
 }

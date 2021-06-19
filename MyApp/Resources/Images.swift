@@ -15,5 +15,4 @@ struct Images {
     static let hacker = UIImage(named: "Hacker")
     static let vidente = UIImage(named: "Vidente")
     static let showDog = UIImage(named: "ShowDog")
-    
 }
