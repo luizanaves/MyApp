@@ -20,7 +20,6 @@ class HackOnePersonViewController: UIViewController {
         hackearButton.hackButton()
         hackearButton.setTitle(Strings.hackear, for: .normal)
         hackFirstLabel.hackTextLabelFirst()
-        
     }
 }
 

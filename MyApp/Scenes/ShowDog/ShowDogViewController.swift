@@ -16,9 +16,10 @@ class ShowDogViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = Colors.showDogOrange
-        imageDogs.image = Images.showDog
         showDogFirstLabel.showDogTextLabelFirst()
-        showDogButton.setTitle(Strings.descubra, for: .normal)
         showDogButton.showDogButton()
+        showDogButton.setTitle(Strings.descubra, for: .normal)
+        imageDogs.image = Images.showDog
+        
     }
 }
