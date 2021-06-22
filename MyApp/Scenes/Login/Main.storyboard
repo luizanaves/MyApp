@@ -11,7 +11,6 @@
         <!--Login View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Y6W-OH-hqX" customClass="LoginViewController" customModule="MyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -41,23 +40,23 @@
                         <outlet property="guestButton" destination="csy-t9-qlr" id="Idm-JM-FgK"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1075" y="106"/>
         </scene>
         <!--Home-->
         <scene sceneID="ZHY-80-XKQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oje-Jv-Qwc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="Home" id="f8g-yp-AMw" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Lrk-QF-5Gs"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oje-Jv-Qwc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1671" y="79"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6CO-nf-Fp7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bAh-My-5qJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fQc-Cg-mrk" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="1PW-rr-zVa">
@@ -69,6 +68,7 @@
                         <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="Yf9-dV-fgY"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bAh-My-5qJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="105.80357142857143"/>
         </scene>
